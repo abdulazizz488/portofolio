@@ -28,32 +28,27 @@ buttonMode.addEventListener("click", function () {
 
 
 
-const cardProject1 = document.getElementById("card-project1");
-
 const project1 = [
   {
     title: "Kalkulator Zakat Emas",
-    description:
-      "Aplikasi Web untuk menghitung zakat emas",
-    image: "/img/codingan.jpeg",
-    tags: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    link: "http://127.0.0.1:5500/index.html",
+    description: "Aplikasi Web untuk menghitung zakat emas",
+    image: "./img/codingan.jpeg",
+    link: "./index.html",
   },
   {
     title: "Kalkulator",
     description: "Aplikasi Web untuk menghitung",
-    image: "/img/kalkulator.jpeg",
-    tags: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    link: "http://127.0.0.1:5500/kalkulator.html",
+    image: "./img/kalkulator.jpeg",
+    link: "./kalkulator.html",
   },
   {
-    title: "Lampu merah",
-    description: "Simulasi Lampu merah",
-    image: "/img/lampu (1).jpeg",
-    tags: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    link: "http://127.0.0.1:5500/traffic.html",
+    title: "Lampu Merah",
+    description: "Simulasi Lampu Merah",
+    image: "./img/lampu-1.jpeg",
+    link: "./traffic.html",
   },
 ];
+
 
 
 for (let i = 0; i < project1.length; i++) {
