@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio</title>
-    <link rel="stylesheet" href="portofolio.css">
+    <link rel="stylesheet" href="ligth.css" href="ligth.css" id="ligth" class="apa">
     <!-- phosphoricon -->
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
@@ -24,6 +24,10 @@
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#project">Project</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <button id="mode">
+                        <i id="icon-mode" class="ph ph-sun"></i>
+                    </button>
+
                 </ul>
             </nav>
         </div>
@@ -48,7 +52,7 @@
             <div>
                 <img src="img/foto.jpeg" alt="" class="foto-ku">
             </div>
-            <div class="about">
+            <div class="about autoShow">
                 <h2>I’m <span>Abdul 'Aziz</span></h2>
                 <p> Hello, saya lahir pada 30 Maret 2008 dan saat ini sedang mempelajari dasar-dasar JavaScript serta
                     pengembangan web.
@@ -135,10 +139,13 @@
             <p>Saya selalu terbuka untuk diskusi, kolaborasi, atau sekadar bertukar pikiran. Jangan ragu untuk
                 menghubungi saya!</p>
             <div class="sosial">
-                <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="ph ph-envelope"></i></a>
-                <a href="https://www.youtube.com/channel/UCdgJNN_5j7-KK-rr0fl8Wiw" target="_blank"><i
+                <a data-social="Gmail" style="--accent-color: green" href="https://mail.google.com/mail/u/0/#inbox"
+                    target="_blank"><i class="ph ph-envelope"></i></a>
+                <a data-social="Youtube" style="--accent-color: red"
+                    href="https://www.youtube.com/channel/UCdgJNN_5j7-KK-rr0fl8Wiw" target="_blank"><i
                         class="ph ph-youtube-logo"></i></a>
-                <a href="https://github.com/abdulazizz488" target="_blank"><i class="ph ph-github-logo"></i></a>
+                <a data-social="Github" style="--accent-color: black" href="https://github.com/abdulazizz488"
+                    target="_blank"><i class="ph ph-github-logo"></i></a>
             </div>
         </section>
     </main>
